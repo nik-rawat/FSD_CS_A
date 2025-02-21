@@ -1,8 +1,8 @@
 import './App.css'
 import Home from './components/Home';
-import Login from './components/Login';
-import Register from './components/Register';
-import Logout from './components/Logout';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
+import Logout from './components/Auth/Logout';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
